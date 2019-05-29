@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3902ED8A-A9EF-4DFD-BD44-74A2F9A5541D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3902ED8A-A9EF-4DFD-BD44-74A2F9A5541D.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Drawing project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Drawing</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Drawing</string>
+			<key>timeStartedRecording</key>
+			<real>580842464.78692806</real>
+			<key>timeStoppedRecording</key>
+			<real>580842603.44726098</real>
+			<key>title</key>
+			<string>Debug Drawing</string>
+			<key>uniqueIdentifier</key>
+			<string>3902ED8A-A9EF-4DFD-BD44-74A2F9A5541D</string>
+		</dict>
+		<key>6FE2ECD4-64F3-4171-A14C-AB4577C2670F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6FE2ECD4-64F3-4171-A14C-AB4577C2670F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Drawing project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Drawing</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Drawing</string>
+			<key>timeStartedRecording</key>
+			<real>580842291.70937097</real>
+			<key>timeStoppedRecording</key>
+			<real>580842299.83654296</real>
+			<key>title</key>
+			<string>Debug Drawing</string>
+			<key>uniqueIdentifier</key>
+			<string>6FE2ECD4-64F3-4171-A14C-AB4577C2670F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
