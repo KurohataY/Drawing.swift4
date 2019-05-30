@@ -20,13 +20,14 @@ class ViewController: UIViewController {
     //サインする場所
     @IBOutlet  var canvas: UIImageView!
     
+    
     //クリアボタンの動作
     @IBAction func clear_button(_ sender: Any) {
         clear()
     }
     //saveボタン
     @IBAction func save_button(_ sender: Any) {
-        
+        saveImage(image: Image)
     }
     
     
@@ -107,19 +108,25 @@ class ViewController: UIViewController {
         return fileURL!.path
     }
     
-    func saveImage (image: UIImage, path: String ) -> Bool{
-        let jpgImageData = image.jpegData(compressionQuality:0.5)
-        do {
-            try jpgImageData!.write(to: URL(fileURLWithPath: path), options: .atomic)
-        } catch {
-            print(error)
-            return false
-        }
-        return true
+    //画像を写真ライブラリに追加（端末内）
+    func saveImage (image: UIImage) {
+    UIImageWriteToSavedPhotosAlbum(image,self,#selector(self.didFinishSavingImage(_:didFinishSavingWithError:contextInfo:)),nil)
     }
+    
+    // 保存を試みた結果を受け取る
+    @objc func didFinishSavingImage(_ image: UIImage, didFinishSavingWithError error: NSError!, contextInfo: UnsafeMutableRawPointer) {
+        
+        // 結果によって出すアラートを変更する
+        var title = "保存完了"
+        var message = "カメラロールに保存しました"
+        
+        if error != nil {
+            title = "エラー"
+            message = "保存に失敗しました"
+        }
+        
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+        }
 }
-
-
-
-
-

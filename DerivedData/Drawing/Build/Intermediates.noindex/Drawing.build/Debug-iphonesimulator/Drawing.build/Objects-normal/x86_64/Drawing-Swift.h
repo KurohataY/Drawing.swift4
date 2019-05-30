@@ -202,6 +202,8 @@ SWIFT_CLASS("_TtC7Drawing11AppDelegate")
 @class UIImageView;
 @class UITouch;
 @class UIEvent;
+@class UIImage;
+@class NSError;
 @class NSBundle;
 @class NSCoder;
 
@@ -215,6 +217,7 @@ SWIFT_CLASS("_TtC7Drawing14ViewController")
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)didFinishSavingImage:(UIImage * _Nonnull)image didFinishSavingWithError:(NSError * _Null_unspecified)error contextInfo:(void * _Nonnull)contextInfo;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

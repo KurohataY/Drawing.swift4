@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>50BA7CF0-D064-4690-A0D3-A16FAB91982B</key>
+		<key>67E02A0D-59F3-453A-BE76-044AC455D477</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>50BA7CF0-D064-4690-A0D3-A16FAB91982B.xcactivitylog</string>
+			<string>67E02A0D-59F3-453A-BE76-044AC455D477.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,15 +30,15 @@
 			<key>signature</key>
 			<string>Build Drawing</string>
 			<key>timeStartedRecording</key>
-			<real>580842280.58448899</real>
+			<real>580917466.21561694</real>
 			<key>timeStoppedRecording</key>
-			<real>580842291.76598895</real>
+			<real>580917469.46093905</real>
 			<key>title</key>
 			<string>Build Drawing</string>
 			<key>uniqueIdentifier</key>
-			<string>50BA7CF0-D064-4690-A0D3-A16FAB91982B</string>
+			<string>67E02A0D-59F3-453A-BE76-044AC455D477</string>
 		</dict>
-		<key>556772DF-B334-4495-B294-D430C59DEF20</key>
+		<key>C1590798-9A97-42D9-A213-1391BC7F2771</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -47,39 +47,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>556772DF-B334-4495-B294-D430C59DEF20.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Drawing project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Drawing</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build Drawing</string>
-			<key>timeStartedRecording</key>
-			<real>580841689.55163395</real>
-			<key>timeStoppedRecording</key>
-			<real>580841690.19348705</real>
-			<key>title</key>
-			<string>Build Drawing</string>
-			<key>uniqueIdentifier</key>
-			<string>556772DF-B334-4495-B294-D430C59DEF20</string>
-		</dict>
-		<key>FEB51D2A-EF96-4CAE-A69F-9EC6F7360CC1</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FEB51D2A-EF96-4CAE-A69F-9EC6F7360CC1.xcactivitylog</string>
+			<string>C1590798-9A97-42D9-A213-1391BC7F2771.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -94,13 +62,45 @@
 			<key>signature</key>
 			<string>Build Drawing</string>
 			<key>timeStartedRecording</key>
-			<real>580842460.184551</real>
+			<real>580886535.08149695</real>
 			<key>timeStoppedRecording</key>
-			<real>580842464.84554696</real>
+			<real>580886535.50344503</real>
 			<key>title</key>
 			<string>Build Drawing</string>
 			<key>uniqueIdentifier</key>
-			<string>FEB51D2A-EF96-4CAE-A69F-9EC6F7360CC1</string>
+			<string>C1590798-9A97-42D9-A213-1391BC7F2771</string>
+		</dict>
+		<key>F93D37C1-4EDA-400F-8F66-6F73BEB3C62B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F93D37C1-4EDA-400F-8F66-6F73BEB3C62B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Drawing project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Drawing</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Drawing</string>
+			<key>timeStartedRecording</key>
+			<real>580917509.49675095</real>
+			<key>timeStoppedRecording</key>
+			<real>580917510.53961504</real>
+			<key>title</key>
+			<string>Build Drawing</string>
+			<key>uniqueIdentifier</key>
+			<string>F93D37C1-4EDA-400F-8F66-6F73BEB3C62B</string>
 		</dict>
 	</dict>
 </dict>
