@@ -213,7 +213,6 @@ SWIFT_CLASS("_TtC7Drawing14ViewController")
 - (IBAction)clear_button:(id _Nonnull)sender;
 - (IBAction)save_button:(id _Nonnull)sender;
 - (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)_;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
